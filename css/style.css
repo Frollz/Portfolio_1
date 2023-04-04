@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;700;800&display=swap');
+html {
+  box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+}
+ul, li, a {
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --blue-text-color: #00A4E5;
+}
+.header {
+  background-image: url(../img/headerBG.jpg);
+  margin: 0 auto;
+  width: 1438px;
+  min-height: 768px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.header__logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 41px;
+  margin-bottom: 308.5px;
+}
+.header__name {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  letter-spacing: 5.70937px;
+  color: #FFFFFF;
+  padding-left: 11.5px;
+  margin-bottom: -1px;
+}
+.header__text {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+}
+.header__scroll-text {
+  color: #FFFFFF;
+  font-family: 'OpenSans', sans-serif;
+  font-size: 11px;
+  line-height: 13px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 3.7px;
+  margin-top: 223px;
+}
+.menu {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.menu__title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 65px;
+}
+.site__icon {
+  margin-left: 9px;
+}
+.menu__title-navbar {
+  display: flex;
+  margin-right: 8px;
+}
+.menu__title-navbar a {
+  font-family: 'OpenSans', sans-serif;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 1.09091px;
+  color: #48555B;
+  text-transform: uppercase;
+}
+.menu__title-navbar a:hover{
+  color: var(--blue-text-color);
+}
+.navbar-item {
+  padding-left: 37px;
+}
+.line {
+  width: 1442px;
+  height: 1px;
+  color: gray;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
