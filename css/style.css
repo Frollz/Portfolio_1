@@ -27,9 +27,10 @@ ul, li, a {
 .header {
   background-image: url(../img/headerBG.jpg);
   margin: 0 auto;
-  width: 1438px;
-  min-height: 768px;
+  max-width: 1438px;
+  height: 100%;
   background-repeat: no-repeat;
+  background-position:center;
   background-size: cover;
 }
 .container {
@@ -43,18 +44,17 @@ ul, li, a {
   margin-bottom: 308.5px;
 }
 .header__name {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bebas Neue';
   font-weight: 400;
   font-size: 60px;
   line-height: 70px;
   text-align: center;
-  letter-spacing: 5.70937px;
+  letter-spacing: 5px;
   color: #FFFFFF;
-  padding-left: 11.5px;
+  padding-left: 25px;
   margin-bottom: -1px;
 }
 .header__text {
-  font-family: 'Bebas Neue', cursive;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
@@ -104,10 +104,82 @@ ul, li, a {
   padding-left: 37px;
 }
 .line {
-  width: 1442px;
+  max-width: 1438px;
   height: 1px;
   color: gray;
   padding: 0 auto;
   margin: 0 auto;
+}
+.story {
+}
+.story-h2 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 57px 0;
+  letter-spacing: 2.30625px;
+  line-height: 21px;
+}
+.story-h2:after {
+  content: '';
+  width: 50px;
+  height: 2px;
+  background-color: var(--blue-text-color);
+  display: block;
+  margin: 12px auto -4px;
+}
+.story__flex {
+  display: flex;
+  justify-content: center;
+}
+.story-left {
+  max-width: 412px;
+  padding-left: 9px;
+  margin-right: 79px;
+}
+.story_title {
+  letter-spacing: 0.1875px;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: bold;
+  margin-bottom: 31px;
+}
+.accent-color {
+  color: var(--blue-text-color);
+}
+.story_text {
+  letter-spacing: 0.1875px;
+  font-size: 13px;
+  line-height: 23px;
+}
+.story-right {
+  display: flex;
+  align-items: flex-end;
+}
+.story_item {
+  letter-spacing: 0.1875px;
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 800;
+  padding: 15px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 140px;
+  height: 224px;
+  margin-right: 20px;
+  margin-bottom: -1px;
+}
+.story_item:nth-child(1){
+  background-image: url(../img/we_plan.png);
+}
+.story_item:nth-child(2){
+  background-image: url(../img/we_manage.png);
+}
+.story_item:nth-child(3){
+  background-image: url(../img/we_build.png);
+  margin-right: 0;
+}
+@media screen and (max-width: 950px) {
 }
 
