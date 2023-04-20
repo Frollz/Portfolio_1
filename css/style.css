@@ -459,7 +459,6 @@ ul, li, a {
   letter-spacing: 0.846154px;
   color: #FFFFFF;
 }
-
 @media screen and (max-width: 950px) {
   .story__flex {
     flex-direction: column;
