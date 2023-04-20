@@ -272,7 +272,7 @@ ul, li, a {
   text-align: center;
   letter-spacing: 0.15px;
   color: #48555B;
-  padding-top: 72px;
+  padding-top: 120px;
 }
 .get-in-touch__button {
   margin: 35px auto 0;
@@ -282,6 +282,51 @@ ul, li, a {
   margin: 0 auto;
   text-align: center;
 }
+.email {
+  max-width: 1440px;
+  min-height: 100px;
+  background-color: #171819;
+  margin: 0 auto;
+  margin-top: -2px;
+}
+.email_flex {
+  display: flex;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 690px;
+}
+.email_h2 {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.846154px;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding-top: 7px;
+  padding-left: 3px;
+  margin-right: 70px;
+}
+.form__email {
+  margin: 0;
+}
+.email_input {
+  width: 250px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07px;
+  color: #48555B;
+  border: none;
+  padding: 0 0 0 16px;
+}
+.email_button {
+  padding-top: 2px;
+  margin-left: -4px;
+  padding-left: 1px;
+}
+
 @media screen and (max-width: 950px) {
   .story__flex {
     flex-direction: column;
@@ -304,6 +349,25 @@ ul, li, a {
   }
   .menu__title-flex {
     margin: 0 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .email_flex {
+    margin: 0 5px;
+  }
+  .email_h2 {
+    margin-right: 5px;
+  }
+}
+@media screen and (max-width: 635px) {
+  .email_flex {
+    flex-direction: column;
+  }
+  .email_h2 {
+    margin: 0;
+  }
+  .form__email {
+    margin: 20px auto 0;
   }
 }
 @media screen and (max-width: 619px) {
@@ -369,6 +433,16 @@ ul, li, a {
 @media screen and (max-width: 429px) {
   .header__scroll-text{
     margin-top: 134px;
+  }
+}
+@media screen and (max-width: 410px) {
+  .form__email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .email_button {
+    margin-top: 10px;
   }
 }
 @media screen and (max-width: 405px) {
