@@ -326,6 +326,139 @@ ul, li, a {
   margin-left: -4px;
   padding-left: 1px;
 }
+.footer {
+  max-width: 1440px;
+  min-height: 240px;
+  background-color: #141A20;
+  margin: 0 auto;
+}
+.footer__flex {
+  display: flex;
+}
+.company {
+  margin-top: 42px;
+  max-width: 250px;
+  max-height: 160px;
+}
+.footer_h5 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
+.footer__icon {
+  margin-top: 20px;
+  margin-left: -2px;
+}
+.footer_company_text {
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 19px;
+  letter-spacing: 0.85px;
+  color: #FFFFFF;
+  margin-top: 15px;
+  margin-left: -1px;
+}
+.links__flex {
+  display: flex;
+  margin-left: 72px;
+  max-width: 262px;
+}
+.links1 {
+  margin-top: 42px;
+  min-width: 78px;
+}
+.footer__navbar {
+  padding: 0;
+  margin-top: 11px;
+}
+.footer__navbar_item {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.links2 {
+  margin-top: 50px;
+  margin-left: 32px;
+  justify-content: start;
+}
+.footer__navbar_2 {
+  padding: 0;
+}
+.links3 {
+  margin-top: 50px;
+  margin-left: 38px;
+  justify-content: start;
+}
+.footer__navbar_3 {
+  padding: 0;
+}
+.contact {
+  margin-left: 58px;
+  margin-top: 42px;
+  max-width: 141px;
+}
+.footer__address {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+.contact__flex_a {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+}
+.footer__number {
+  color: #FFFFFF;
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+}
+.footer__mail {
+  font-size: 11px;
+  line-height: 16px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+.social {
+  margin-top: 71px;
+  margin-left: 69px;
+}
+.social_icon {
+  color: #FFFFFF;
+  margin-left: 24px;
+}
+.social__flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 87px;
+}
+.copyright {
+  max-width: 1440px;
+  height: 60px;
+  background-color:#171819;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.copytight_text {
+  padding-top: 21px;
+  margin: 0 auto;
+  padding-left: 10px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 13px;
+  letter-spacing: 0.846154px;
+  color: #FFFFFF;
+}
 
 @media screen and (max-width: 950px) {
   .story__flex {
@@ -348,7 +481,39 @@ ul, li, a {
     margin: 0 auto;
   }
   .menu__title-flex {
+    margin: 0 10px;
+  }
+  .footer__flex {
+    margin: 0 20px;
+    flex-wrap: wrap;
+  }
+  .services_flex {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .social__flex {
+    margin: 0 auto;
+    align-items: first baseline;
+  }
+  .social {
+    margin: 30px;
+  }
+}
+@media screen and (max-width: 855px) {
+  .services__flex_text {
+    padding: 0 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .services__button {
+    margin: 20px auto 0;
+  }
+  .services_flex {
     margin: 0 5px;
+    flex-direction: column;
+  }
+  .services-h2:after {
+    margin: 12px auto;
   }
 }
 @media screen and (max-width: 700px) {
@@ -389,9 +554,6 @@ ul, li, a {
   .services_flex {
     margin: 0 5px;
     flex-direction: column;
-  }
-  .services-h2:after {
-    margin: 12px auto;
   }
   .story_title {
     text-align: center;
@@ -434,6 +596,12 @@ ul, li, a {
   .header__scroll-text{
     margin-top: 134px;
   }
+  .links__flex {
+    margin: 0 auto;
+  }
+  .contact {
+    margin: 30px auto 0;
+  }
 }
 @media screen and (max-width: 410px) {
   .form__email {
@@ -463,13 +631,42 @@ ul, li, a {
   .menu__title-navbar,li {
     margin: 4px auto;
   }
+  .company {
+    margin: 42px auto 0;
+    justify-content: center;
+  }
+  .company_h5 {
+    margin: 0 auto;
+  }
+  .footer__icon {
+    margin: 20px auto 0;
+  }
+  .footer_company_text {
+    margin: 15px auto 0;
+  }
+  .links__flex {
+    flex-direction: column;
+  }
+  .links2 {
+    margin: 0;
+  }
+  .links3 {
+    margin: 0;
+  }
+  .links1 {
+    margin-top: 30px;
+  }
 }
 @media screen and (max-width: 344px) {
   .header__scroll-text{
-    margin-top: 65px;
+    margin-top: 63px;
   }
   .header__name {
     margin: 0;
+  }
+  .get-in-touch_h2 {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 304px) {
